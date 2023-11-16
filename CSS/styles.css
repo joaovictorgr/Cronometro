@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem;
+    background-color: black;
+    height: 100vh;
+}
+
+.container h1{
+    color: rgb(0, 0, 150);
+}
+
+.timer {
+    display: flex;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: azure;
+    min-width: 90px;
+}
+
+.separador{
+    font-size: 0 10px;
+    color: rgb(121, 121, 121);
+
+}
+
+#milisegundos{
+    font-size: 30px;
+    color: rgb(121, 121, 121);
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition:  all 0.2s ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+#iniciarBTN{
+    background-color: rgb(0, 0, 150);
+    color:white;
+}
+
+#pauseBTN,
+#continuarBTN{
+    display: none;
+}
